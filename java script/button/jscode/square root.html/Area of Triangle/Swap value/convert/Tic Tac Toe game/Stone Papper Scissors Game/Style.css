@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 82, 235);
+    color: white;
+}
+.choice{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+     gap: 1.5rem;
+    margin-top: 1rem; */
+}
+img{
+    height: 150px;
+    width: 150px;
+    flex-direction: column;
+    object-fit: cover;
+    border-radius: 50%;
+}
